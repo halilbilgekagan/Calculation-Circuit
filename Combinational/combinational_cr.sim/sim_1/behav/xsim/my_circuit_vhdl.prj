@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../combinational_cr.srcs/sources_1/new/combv2.vhd" \
+"../../../../combinational_cr.srcs/sources_1/new/reg11.vhd" \
+"../../../../combinational_cr.srcs/sources_1/new/reg22.vhd" \
+"../../../../combinational_cr.srcs/sources_1/new/comb_main.vhd" \
+
+# Do not sort compile order
+nosort
